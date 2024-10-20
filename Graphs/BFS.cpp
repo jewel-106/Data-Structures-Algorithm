@@ -73,7 +73,7 @@ int main()
             adj[u].push_back(v);
             adj[v].push_back(u);
         }
-        bfs(adj,0);
+        bfs(adj,0);  
 
     }
 }
